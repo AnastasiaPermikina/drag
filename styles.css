@@ -86,3 +86,10 @@ body {
 .hovered {
   border-top: 2px solid rgb(217, 162, 229);
 } 
+
+.placeholder.singular .item.singular {
+  border: 5px solid rgb(45, 190, 45);
+}
+.placeholder.plural .item:not(.singular) {
+  border: 5px solid rgb(220, 67, 67);
+}
